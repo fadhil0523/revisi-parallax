@@ -65,6 +65,7 @@
 .button-two {
   margin-left: 50px;
   margin-top: 10px;
+  margin-bottom: 1000px;
 }
 .button-two button {
   padding: 8px 50px;
@@ -76,22 +77,44 @@
   width: 550px;
   margin-left: -220px;
 }
-.burger{
-    margin-top: -500px;
-    margin-left: -150px;
+.burger {
+  margin-top: -500px;
+  margin-left: -150px;
 }
 #breadOne {
   width: 380px;
+  position: absolute;
+  margin-top: 110px;
+  margin-right: 220px;
+  top:0;
+  right: 0;
   z-index: 4;
 }
 #vegetable {
-  width: 400px;
-  margin-top: -40px;
+  width: 440px;
+  margin-top: 210px;
+  margin-right: 190px;
+  position: absolute;
+  top: 0;
+  right: 0;
   z-index: 3;
 }
 #meat {
   width: 400px;
+  margin-top: 270px;
+  margin-right: 210px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
 }
 #breadTwo {
   width: 450px;
+  margin-top: 310px;
+  margin-right: 185px;
+  position: absolute;
+  top:0;
+  right: 0;
+  z-index: 1;
 }
+
