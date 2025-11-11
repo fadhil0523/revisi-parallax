@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  display: flex;
+}
+.kanan {
+  width: 70%;
+}
+.kiri {
+  width: 30%;
+  background: linear-gradient(#a80000, #4e1919);
+}
+.logo {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.navigasi {
+  margin-left: 350px;
+  margin-top: -50px;
+}
+.navigasi a {
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  margin-left: 60px;
+}
+.button-one {
+  margin-top: 30px;
+  margin-left: -40px;
+}
+.button-one button {
+  padding: 10px 80px;
+  margin-left: 150px;
+  color: white;
+  background-color: transparent;
+  border: white 1px solid;
+}
+.tagline {
+  font-size: 50px;
+  font-weight: 800;
+  color: black;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.description-tagline {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.red-one {
+  color: red;
+}
+.red-two {
+  color: red;
+}
+.price {
+  font-size: 36px;
+  font-weight: 700;
+  color: #ff9900;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.button-two {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.button-two button {
+  padding: 8px 50px;
+  color: white;
+  background-color: #a80000;
+  border: none;
+}
+.leaf img {
+  width: 550px;
+  margin-left: -220px;
+}
+.burger{
+    margin-top: -500px;
+    margin-left: -150px;
+}
+#breadOne {
+  width: 380px;
+  z-index: 4;
+}
+#vegetable {
+  width: 400px;
+  margin-top: -40px;
+  z-index: 3;
+}
+#meat {
+  width: 400px;
+}
+#breadTwo {
+  width: 450px;
+}
