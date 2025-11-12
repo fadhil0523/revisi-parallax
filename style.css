@@ -3,15 +3,22 @@
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
+body {
+  overflow-x: hidden;
+}
 .container {
   display: flex;
 }
 .kanan {
   width: 70%;
+  height: 100vh;
+  z-index: 1;
 }
 .kiri {
   width: 30%;
-  background: linear-gradient(#a80000, #4e1919);
+  background: linear-gradient(#a80000, rgb(196, 5, 5), rgb(146, 4, 4));
+  z-index: -1;
+  height: 500%;
 }
 .logo {
   margin-top: 30px;
@@ -74,47 +81,115 @@
   border: none;
 }
 .leaf img {
-  width: 550px;
-  margin-left: -220px;
+  width: 120vh;
+  height: 100vh;
+  margin-left: -350px;
 }
 .burger {
   margin-top: -500px;
   margin-left: -150px;
 }
 #breadOne {
-  width: 380px;
+  width: 330px;
   position: absolute;
   margin-top: 110px;
   margin-right: 220px;
-  top:0;
+  top: 0;
   right: 0;
   z-index: 4;
 }
 #vegetable {
-  width: 440px;
-  margin-top: 210px;
-  margin-right: 190px;
+  width: 420px;
+  margin-top: 190px;
+  margin-right: 180px;
   position: absolute;
   top: 0;
   right: 0;
   z-index: 3;
 }
 #meat {
-  width: 400px;
-  margin-top: 270px;
-  margin-right: 210px;
+  width: 380px;
+  margin-top: 260px;
+  margin-right: 200px;
   position: absolute;
   top: 0;
   right: 0;
   z-index: 2;
 }
 #breadTwo {
-  width: 450px;
-  margin-top: 310px;
-  margin-right: 185px;
+  width: 410px;
+  margin-top: 320px;
+  margin-right: 175px;
   position: absolute;
-  top:0;
+  top: 0;
   right: 0;
   z-index: 1;
 }
-
+#dotOne {
+  color: white;
+}
+#descOne {
+  position: absolute;
+  left: 0;
+  font-weight: bolder;
+  margin-top: -145vh;
+  margin-left: 15vh;
+  margin-bottom: 100vh;
+  color: white;
+  display: flex;
+  gap: 4px;
+}
+#dotTwo {
+  color: #4e1919;
+}
+#descTwo {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  margin-right: -30vh;
+  margin-top: 115vh;
+}
+#descTwo i {
+  color: white;
+  width: 50vh;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  margin-left: -50vh;
+}
+#descTwo p {
+  color: white;
+}
+#decoOne {
+  margin-top: 80vh;
+}
+.section-two {
+  background: linear-gradient(#a80000, #4e1919);
+  height: 120vh;
+  position: relative;
+  z-index: -20;
+  margin-top: -30vh;
+}
+#descThree {
+  margin-top: -100vh;
+  position: absolute;
+  left: 0;
+  margin-left: 20vh;
+}
+#descThree p {
+  font-weight: bolder;
+  color: white;
+}
+#descFour i{
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+  color: white;
+}
+#descFour {
+  position: absolute;
+  right: 0;
+  margin-top: 160vh;
+  margin-left: 94vw;
+}
